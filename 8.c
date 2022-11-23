@@ -2,8 +2,9 @@
 
 main(){
 		
-		int a = -1;
+		int a = 1;
 		int n;
+		int sub_total;
 		int total;
 		
 		printf("type no. :- ");
@@ -18,6 +19,8 @@ main(){
 					
 		}
 
-			printf("Total = %d",total);
+			sub_total = total-1;
+			
+			printf("Total = %d",sub_total);
 
 }
