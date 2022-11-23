@@ -11,10 +11,12 @@ main(){
 	scanf("%i",&n);
 		
 			while(a<=n){
-		
+						
+			if(a%2!=0)
+			
 			printf("%i\n",a);
 		
-			a+=2;
+			a++;
 		}
 	
 }
