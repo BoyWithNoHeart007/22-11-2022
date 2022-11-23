@@ -4,8 +4,7 @@ main(){
 		
 		int a = 1;
 		int n;
-		int sub_total;
-		int total;
+		int total = 0;
 		
 		printf("type no. :- ");
 		
@@ -18,9 +17,7 @@ main(){
 				a++;
 					
 		}
-
-			sub_total = total-1;
-			
-			printf("Total = %d",sub_total);
+		
+			printf("Total = %d",total);
 
 }
