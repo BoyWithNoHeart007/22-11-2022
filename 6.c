@@ -2,7 +2,7 @@
 
 main(){
 	
-	int a = 0;
+	int a = 1;
 	
 	int n;
 	
@@ -11,10 +11,14 @@ main(){
 	scanf("%i",&n);
 		
 			while(a<=n){
+				
+				if(n%2==0){
 		
-			printf("%i\n",n);
-		
-			n-=2;
+				printf("%i\n",n);
+			
+			}
+			
+			n--;
 		}
 	
 }
