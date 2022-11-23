@@ -4,7 +4,7 @@ main(){
 		
 		int a = -1;
 		int n;
-		int sum;
+		int total;
 		
 		printf("type no. :- ");
 		
@@ -12,13 +12,12 @@ main(){
 
 		while(a<=n){
 			
-			(sum += a);
+				(total += a);
 			
-			++a;
-		
-			
+				a++;
+					
 		}
 
-			printf("%d",sum);
+			printf("Total = %d",total);
 
 }
